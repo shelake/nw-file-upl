@@ -1,0 +1,64 @@
+.card-post-container{
+    width:73%;
+    /* margin-left:5% ;
+    margin-right: 27%;
+    margin-top: 3%; */
+    margin-top: 3%;
+    margin-left:10%;
+    /* box-shadow: 0 10px 10px rgba(127, 99, 240, 0.3);  */
+    
+}
+.card-post {
+     background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 10px 5px rgba(9, 6, 19, 0.1);
+    padding: 20px;
+  
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 2px;
+
+}
+
+.card-header {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    background-color: #071d34;
+    font-family: bold;
+    color: #fff;
+}
+.card-text{
+   width: 300px;
+}
+.card-body {
+    display: flex;
+    justify-content:space-around;
+    margin-top: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+ 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: bold;
+}
+
+.btn:hover {
+    background-color: #3b6fa6;
+}
+
+.profile-image {
+    width: 10%; /* Adjust the width of the profile image as a percentage of the window width */
+    max-width: 60px; /* Maximum width of the profile image */
+    height: auto; /* Allow the height to adjust automatically based on the width */
+    border-radius: 50%;
+}
+.textarea {
+    display: block;
+    width: fit-content;
+  
+}

@@ -1,0 +1,10 @@
+/* NavBar.css */
+.custom-navbar {
+    background: -webkit-linear-gradient(to right, #2ba0ff,#2bedff);
+    background: linear-gradient(to right, #2ba0ff,#2bedff);
+  }
+.navbar-container{
+    position: fixed;
+    width:100%;
+}
+  

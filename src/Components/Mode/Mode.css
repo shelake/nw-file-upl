@@ -1,0 +1,33 @@
+body {
+    transition: background-color 0.3s, color 0.3s;
+  }
+ 
+  .dark-mode {
+    background-color: #1f1f1f;
+    color: #ffffff;
+  }
+ 
+  .mode-container {
+    position: fixed;
+    bottom: 12%;
+    left: 1.8%;
+
+  }
+ 
+  .mode-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    
+  }
+ 
+  /* Icon colors */
+  .icon-white {
+    color: #ffffff; /* White color for dark mode */
+  }
+ 
+  .icon-black {
+    color: #000000; /* Black color for light mode */
+  }
+ 

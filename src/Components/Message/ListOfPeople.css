@@ -1,0 +1,42 @@
+/* .people-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .friend {
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 40px;
+  }
+  
+  .friend:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .friend-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .friend-image img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+  } */
+  
+
+.people-container{
+    width:120%;
+    height:40%;
+    padding-inline-start: 50%;
+    padding-inline-end: 20%;
+    padding-left: 140px;
+}
+.card-people{
+    width:100%;
+    margin-right:30%;
+}

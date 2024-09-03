@@ -1,0 +1,78 @@
+.proper-container{
+   
+    width:50%;
+    background-color: #eff3f5;
+    border-radius: 20px;
+    height: 10%;
+    margin-left: 15%;
+    margin-right: 0%;
+    box-shadow: 0 10px 10px rgba(127, 99, 240, 0.3); /* Add shadow */
+   padding-left: 200px;
+   padding-top:580rem;
+   margin-top: 10%;
+   /* position: fixed; */
+   
+}
+
+body{background-color:#eee}
+.time{font-size: 9px !important}
+.socials i{
+    margin-right: 14px;
+    font-size: 17px;
+    color: #d2c8c8;
+    cursor: pointer}
+.feed-image img{
+    width: 100%;
+    height: auto}
+    /* Adjust the font size */
+.feed-text span {
+    font-size: 16px; /* Adjust as needed */
+}
+
+/* Increase the profile picture size */
+.feed-text img {
+    width: 60%; /* Adjust as needed */
+    height: 60%; /* Adjust as needed */
+}
+
+/* Increase the textarea size */
+.form-control {
+    
+    font-size: 16px; /* Adjust as needed */
+}
+
+/* Increase the button size */
+.btn {
+    font-size: 16px; /* Adjust as needed */
+}
+
+.para{
+    padding-left: 25%;
+    width: 100%;
+}
+.card-text-post{
+    width: 100%;
+    padding-left: 30px;
+}
+.postContainer {
+    width: 400%;
+    float: center; /* Position the container on the left */
+    padding-right: 0px;
+    margin-left: 0;
+    box-shadow: 0 10px[] 10px rgba(127, 99, 240, 0.3);
+    /* A
+    
+    dditional styling if needed */
+  }
+
+  .container {
+    margin-right: 20px; /* Adjust the value as needed */
+    background-color: #eff3f5;
+  }
+  
+
+ 
+
+
+  
+

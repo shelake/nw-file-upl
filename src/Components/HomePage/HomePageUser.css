@@ -1,0 +1,30 @@
+/* 
+  
+  /* .user-profile-card {
+    width: 300px; 
+    height: auto; 
+    text-align: center;
+    background-color: #eff3f5;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px rgba(127, 99, 240, 0.3);
+  } */
+   
+  /* .user-profile-card .card-img-top {
+    border-radius: 50%;
+    width: 100px; 
+    height: 100px; 
+   
+  } */
+   .list-group-item{
+   align-items: center;
+   
+   }
+  .user-profile-card .list-group-item.friends {
+    color: blue; 
+    
+  }
+   
+  .user-profile-card .list-group-item.groups {
+    color: blue; 
+  }
+    

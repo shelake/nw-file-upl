@@ -1,0 +1,64 @@
+body{
+    
+    background-color:#B3E5FC;
+    border-radius: 10px;
+
+}
+
+
+.card{
+  width: 400px;
+  border: none;
+  border-radius: 10px;
+   
+  background-color: #fff;
+}
+.img{
+    border-radius: 50%;
+}
+
+.stats{
+
+      background: #f2f5f8 !important;
+
+    color: #000 !important;
+}
+.posts{
+  font-size:10px;
+  color: #a1aab9;
+}
+.number1{
+  font-weight:500;
+}
+.friends{
+    font-size:10px;
+  color: #a1aab9;
+
+}
+.number2{
+  font-weight:500;
+}
+.groups{
+    font-size:10px;
+  color: #a1aab9;
+}
+.number3{
+  font-weight:500;
+}
+
+.profile-head {
+    transform: translateY(5rem)
+  }
+  
+  .cover {
+    background-image: url(https://images.unsplash.com/photo-1530305408560-82d13781b33a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80);
+    background-size: cover;
+    background-repeat: no-repeat
+  }
+  
+  body {
+    background: #654ea3;
+    background: linear-gradient(to right, #e96443, #904e95);
+    min-height: 100vh;
+    overflow-x:hidden;
+  }

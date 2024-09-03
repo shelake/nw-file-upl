@@ -1,0 +1,30 @@
+
+.friends-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Each row will have 4 columns */
+    gap: 10px;
+  }
+ 
+  .friend-item {
+    display: flex;
+    justify-content: center;
+  }
+ 
+  .friend-avatar {
+    width: 50px; /* Adjust the width of the profile photo */
+    height: 50px; /* Adjust the height of the profile photo */
+    border-radius: 50%;
+  }
+ 
+  .card {
+    width: 300px; /* Adjust the width of the card */
+    margin-left: 200px;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+  }
+ 
+  @media (max-width: 768px) {
+    .friends-grid {
+      grid-template-columns: repeat(2, 1fr); /* On smaller screens, display 2 columns per row */
+    }
+  }

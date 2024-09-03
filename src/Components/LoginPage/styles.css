@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+  }
+   
+  body {
+    background: #ccadec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    height: 100vh;
+    margin: -20px 0 50px;
+  }
+   
+  @keyframes shake {
+    0% , 100% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+   
+  }
+   
+  .password-toggle {
+    cursor: pointer; /* Add cursor pointer for interaction */
+    position: absolute; /* Position the eye button */
+    top: 52%; /* Align vertically */
+    right: 58px; /* Adjust right spacing */
+    transform: translateY(-50%); /* Center vertically */
+   
+  }
+   
+  .password-toggle-signup {
+    cursor: pointer; /* Add cursor pointer for interaction */
+    position: absolute; /* Position the eye button */
+    top: 64.5%; /* Align vertically */
+    right: 58px; /* Adjust right spacing */
+    transform: translateY(-50%); /* Center vertically */
+  }
+   
+  .error {
+    border: 2px solid red; /* Add red border for error */
+    animation: shake 0.5s; /* Apply shake animation */
+  }
+   
+  @keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+  }
+   
+   
+   
+   
+   
+   
+   

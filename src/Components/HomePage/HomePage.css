@@ -1,0 +1,33 @@
+
+  /* Define styles for NavBar, Sidenav, HomePageUser, and PostHome components */
+  /* .horizontal-container {
+    margin-left: 0%;
+    
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start; 
+  } */
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+  }
+  
+  .main-container > * {
+    margin-bottom: 20px; /* Add space between components */
+  }
+  
+  @media (min-width: 768px) {
+    .main-container {
+      flex-direction: row; /* Arrange items horizontally on larger screens */
+      justify-content: space-between; /* Add space between items */
+    }
+  
+    .main-container > * {
+      margin-bottom: 0; /* Remove bottom margin for horizontal arrangement */
+    }
+  }
+  

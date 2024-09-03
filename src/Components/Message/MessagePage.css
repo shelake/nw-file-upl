@@ -1,0 +1,82 @@
+#chat1.form-outline .form-control~.form-notch div {
+  pointer-events: none;
+  
+  
+  background: transparent;
+  }
+ /* .container {
+  max-height: 80%;
+  max-width: 100%;
+  padding-left: 400px; /* Increase the left padding */
+  /* padding-bottom: auto; */
+  /* padding-top: 0px;  */
+  /* Add padding-top to create space from the top */
+  /* padding-right: 20px; 
+  Add padding-right to create space from the right
+  margin-left: 400px;  */
+  /* Set margin-left to auto to align the container to the right */
+
+
+  
+  .container {
+    max-height: 80%;
+    max-width: 100%;
+    padding-left: 40px;
+    padding-bottom: auto;
+    padding-top: 20px;
+    padding-right: 200px;
+    margin-left: 40px;
+    width: 800px; /* Adjust the value according to your preference */
+  }
+  
+  
+  
+ 
+  .message-input {
+    height: 10vh; /* Set height for message input section */
+    width: 212%;
+  }
+  /* .message-textarea {
+    width: 90%; 
+  } */
+  
+  .message-history {
+    height: 30vh; /* Set height for message history section */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  /* .message-container {
+    
+    
+    margin-bottom: 10px;
+    max-width:fit-content;
+  } */
+  
+  
+  
+ .sender-right {
+    padding-top:5px;
+    border-radius: 10px;
+    
+    padding-left: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 10px;
+    max-width:fit-content;
+    margin-left: 30%;
+    
+    background-color:#a9b5d9;
+    content: center;
+  }
+  
+  .sender-left {
+    padding-top:5px;
+    margin-bottom: 10px;
+    max-width:fit-content;
+   
+    padding: 10px; border-radius: 10px;
+    text-align: left; /* Align text to the left */
+    background-color: #ffbbba;
+    content: center;
+  }
+  .message-text{
+    padding-left: 3%;
+  }

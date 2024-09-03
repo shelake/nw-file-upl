@@ -1,0 +1,150 @@
+/* styles.css */
+.friends-container,
+.pending-requests-container,
+.friend-suggestions-container {
+  width: 100%;
+  margin-bottom: 40px; /* Add some bottom margin for separation */
+}
+ 
+.friends-container h2,
+.pending-requests-container h2,
+.friend-suggestions-container h2 {
+  margin-top: 30px;
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  text-transform: uppercase;
+}
+ 
+.friends-container .friends,
+.pending-requests-container .pending-requests,
+.friend-suggestions-container .friend-suggestions {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 60px;
+}
+ 
+.container{
+  width: 25%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column; /* Make the container flex column */
+  align-items: center; /* Align items in the middle horizontally */
+}
+ 
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding-right: '30%';
+  margin-bottom: 20px;
+  text-align: center;
+  width: 50%; /* Set the desired width */
+  
+ 
+}
+ 
+.card img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+ 
+ 
+}
+ 
+.card h3 {
+  margin-top: 8px;
+  font-size: 12px;
+  font-weight: bold;
+}
+ 
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+}
+ 
+.button button {
+  flex-grow: 1;
+  margin: 0 5px;
+  transition: background-color 0.3s ease;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 2px 5px;
+  cursor: pointer;
+}
+ 
+.button button.accept {
+  background-color: #28a745;
+  color: #fff;
+  padding: 1px 2px; /* Adjust padding */
+  font-size: 9px;
+}
+ 
+.button button.decline {
+  background-color: #dc3545;
+  color: #fff;
+  padding: 1px 2px; /* Adjust padding */
+  font-size: 9px;
+}
+ 
+.button button.send-request {
+  background-color: white;
+  color: #fff;
+  padding: 1px 2px; /* Adjust padding */
+  font-size: 9px;
+}
+ 
+.button button:hover {
+  opacity: 0.8;
+}
+ 
+.button button.active {
+  opacity: 0.8;
+}
+ 
+.button button.active:hover {
+  opacity: 0.9;
+}
+ 
+h2 {
+  margin-top: 30px;
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  font-weight: bold;
+ 
+}
+ 
+.friends,
+.pending-requests
+{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 10px;
+ 
+}
+.friend-suggestions{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+
+}
+
+ 
+@media (max-width: 700px) {
+  .card img {
+    width: 60px;
+    height: 60px;
+  }
+}
